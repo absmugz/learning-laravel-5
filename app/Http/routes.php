@@ -32,3 +32,5 @@ Route::get('chapters','ChaptersController@index');
 
 Route::get('chapters/{chapter}','ChaptersController@show');
 
+Route::get('topics','TopicsController@index');
+
