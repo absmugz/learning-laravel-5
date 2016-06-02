@@ -30,3 +30,5 @@ Route::get('about','PagesController@about');
 
 Route::get('chapters','ChaptersController@index');
 
+Route::get('chapters/{chapter}','ChaptersController@show');
+
